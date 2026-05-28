@@ -1,3 +1,4 @@
+const fetchPokemonData = require("./fetchPokemonData")
 
 describe("fetchPokemonData", () => {
     it("returns the name and sprites for an existing Pokemon", async () => {
